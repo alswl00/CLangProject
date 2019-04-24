@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 
 struct Point {
@@ -11,6 +11,6 @@ int main() {
 	point.Print();
 }
 void Point::Print() {
-	cout << "x ÁÂÇ¥´Â " << x << endl;
-	cout << "y ÁÂÇ¥´Â " << y << endl;
+	cout << "x ì¢Œí‘œëŠ” " << x << endl;
+	cout << "y ì¢Œí‘œëŠ” " << y << endl;
 }

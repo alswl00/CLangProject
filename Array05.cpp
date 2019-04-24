@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 
 int main() {
@@ -7,7 +7,7 @@ int main() {
 
 	for (int i = 0; str[i] != NULL; i++)
 		strlength++;
-	cout << "HELLO WORLDÀÇ ¹®ÀÚ ±æÀÌ´Â " << strlength << endl;
+	cout << "HELLO WORLDì˜ ë¬¸ìž ê¸¸ì´ëŠ” " << strlength << endl;
 
 	return 0;
 }
