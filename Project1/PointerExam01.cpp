@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
 	int num = 1;
-	int *ptr1 = &num;
+	int *ptr1 = 1;
 	int *ptr2 = &num;
 	int *ptr3, ptr4;
 	int *ptr5, *ptr6;

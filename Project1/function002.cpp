@@ -1,4 +1,4 @@
-ï»¿#include <iostream>
+#include <iostream>
 using namespace std;
 
 #define multiple_define(A) ((A)*(A))
@@ -6,9 +6,9 @@ int multiple_inline(int A);
 
 int main() {
 	int a = 3;
-	cout << "inline í•¨ìˆ˜ì˜ ê°’ì€ " << multiple_inline(++a) << endl;
+	cout << "inline ÇÔ¼öÀÇ °ªÀº " << multiple_inline(++a) << endl;
 	a = 3;
-	cout << "define ë§¤í¬ë¡œ ê°’ì€ " << multiple_define(++a) << endl;
+	cout << "define ¸ÅÅ©·Î °ªÀº " << multiple_define(++a) << endl;
 	return 0;
 }
 

@@ -1,12 +1,12 @@
-ï»¿#include <iostream>
+#include <iostream>
 using namespace std;
 
 struct Point {
 	int x;
 	int y;
 	void Print() {
-		cout << "x ì¢Œí‘œëŠ” " << x << endl;
-		cout << "y ì¢Œí‘œëŠ” " << y << endl;
+		cout << "x ÁÂÇ¥´Â " << x << endl;
+		cout << "y ÁÂÇ¥´Â " << y << endl;
 	}
 };
 

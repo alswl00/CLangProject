@@ -1,4 +1,4 @@
-ï»¿#include <iostream>
+#include <iostream>
 using namespace std;
 void swap_value(int a, int b) {
 	int temp;
@@ -24,7 +24,7 @@ void swap_reference(int &a,int &b) {
 
 int main() {
 	int num1, num2;
-	cout << "ë‘ ê°œì˜ ìˆ˜ë¥¼ ìž…ë ¥í•˜ì‹œì˜¤ >> ";
+	cout << "µÎ °³ÀÇ ¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À >> ";
 	cin >> num1;
 	cin >> num2;
 	cout << "a : " << num1 << "    b : " << num2 << endl;

@@ -1,10 +1,10 @@
-ï»¿#include <iostream>
+#include <iostream>
 using namespace std;
 
 void jungjuk() {
 	static int a = 0;
 	int b = 0;
-	cout << "ì •ì  ë³€ìˆ˜ aëŠ”" << a << ",ì§€ì—­ë³€ìˆ˜b:" << b << endl;
+	cout << "Á¤Àû º¯¼ö a´Â" << a << ",Áö¿ªº¯¼öb:" << b << endl;
 	a++; b++;
 }
 int main() {

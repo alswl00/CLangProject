@@ -1,4 +1,4 @@
-ï»¿#include <iostream>
+#include <iostream>
 using namespace std;
 
 class AccessTest {
@@ -11,7 +11,7 @@ private:
 };
 
 void AccessTest::ShowJumsu() {
-	cout << "ì ìˆ˜: " << jumsu << endl;
+	cout << "Á¡¼ö: " << jumsu << endl;
 }
 void AccessTest::setJumsu(const int data) {
 	jumsu = data;
@@ -22,6 +22,6 @@ int AccessTest::getJumsu() {
 int main() {
 	AccessTest access;
 	access.setJumsu(99);
-	cout << "ì ìˆ˜: " << access.getJumsu() << endl;
+	cout << "Á¡¼ö: " << access.getJumsu() << endl;
 	return 0;
 }
